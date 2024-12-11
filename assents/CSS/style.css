@@ -1,0 +1,93 @@
+/* estilo.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #372D62, #755CCC, #96BDFA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa-login {
+    width: 360px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+.cabecalho {
+    padding: 20px;
+    background: linear-gradient(to bottom, #3b5998, #8e44ad);
+    color: white;
+}
+
+.conteudo-login {
+    padding: 20px;
+}
+
+.conteudo-login h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.link-esqueci-senha {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.botao-continuar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #84d3ff, #d3ffb6);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.botao-continuar:hover {
+    background: linear-gradient(to right, #69b2ff, #b8e999);
+}
+
+.opcoes-login {
+    margin-top: 20px;
+}
+
+.opcoes-login p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.botoes-redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.botoes-redes-sociais img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.link-criar-conta {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    text-decoration: none;
+    margin-top: 10px;
+}
